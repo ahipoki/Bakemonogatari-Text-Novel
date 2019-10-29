@@ -25,3 +25,23 @@ int main() {
     }
   }
 }
+
+void crab() {
+  
+}
+
+void snail() {
+  
+}
+
+void monkey() {
+  
+}
+
+void snake() {
+  
+}
+
+void cat() {
+  
+}
