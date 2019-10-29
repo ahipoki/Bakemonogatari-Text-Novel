@@ -11,37 +11,37 @@ void cat();
 int main() {
   char input[80];
   while (true) {
-    cout << "This is the Senjougahara arc of Bakemonogatari" << endl;
-    cout << "Are you ready?" << endl;
-    cin >> input;
-    if (stcmp(input, "Yes") == 0) {
+    cout<<"This is the Senjougahara arc of Bakemonogatari"<<endl;
+    cout<<"Are you ready?"<<endl;
+    cin>>input;
+    if (stcmp(input, "Yes") ==0){
       crab();
     }
-    else if (strcmp(input, "No") == 0) {
+    else if (strcmp(input, "No") ==0){
       return false;
     }
-    else {
-      cout << "That's an invalid answer" << endl;
+    else{
+      cout<<"That's an invalid answer"<<endl;
     }
   }
 }
 
-void crab() {
-  
+void crab(){
+  cout<<"This is a tale of a crab"<<endl;
 }
 
-void snail() {
-  
+void snail(){
+  cout<<"This is a tale of a snail"<<endl;
 }
 
-void monkey() {
-  
+void monkey(){
+  cout<<"This is a tale of a monkey"<<endl;
 }
 
-void snake() {
-  
+void snake(){
+  cout<<"This is a tale of a snake"<<endl;
 }
 
-void cat() {
-  
+void cat(){
+  cout<<"This is a tale of a cat"<<endl;
 }
