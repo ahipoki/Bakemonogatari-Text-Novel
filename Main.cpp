@@ -2,6 +2,12 @@
 #include <cstring>
 using namespace std;
 
+void crab();
+void snail();
+void monkey();
+void snake();
+void cat();
+
 int main() {
   char input[80];
   while (true) {
