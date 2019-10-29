@@ -27,21 +27,21 @@ int main() {
 }
 
 void crab(){
-  cout<<"This is a tale of a crab"<<endl;
+  cout<<"This is a tale of a crab and Hitagi Senjougahara"<<endl;
 }
 
 void snail(){
-  cout<<"This is a tale of a snail"<<endl;
+  cout<<"This is a tale of a snail and Hachikuji Mayoi"<<endl;
 }
 
 void monkey(){
-  cout<<"This is a tale of a monkey"<<endl;
+  cout<<"This is a tale of a monkey and Suruga Kanbaru"<<endl;
 }
 
 void snake(){
-  cout<<"This is a tale of a snake"<<endl;
+  cout<<"This is a tale of a snake and Nadeko Sengoku"<<endl;
 }
 
 void cat(){
-  cout<<"This is a tale of a cat"<<endl;
+  cout<<"This is a tale of a cat and Tsubasa Hanekawa"<<endl;
 }
