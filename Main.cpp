@@ -38,15 +38,19 @@ int main() {
 
 void crab(){
   char nextArc[80];
-  cout<<"Hitagi Senjougahara occupies the position of \"the girl who's always ill\" in our class."<<endl;
+  cout<<"Hitagi Senjougahara occupies the position of \"the girl who's "<<endl;
+  cout<<"always ill\" in our class."<<endl;
   cin.ignore();
-  cout<<"She's not expected to participate in P.E., of course, and is even allowed to suffer morning and school-wide assemblies ";
-  cout<<"in the shade, alone, as a precaution against anemia or something."<<endl;
+  cout<<"She's not expected to participate in P.E., of course, and is "<<endl;
+  cout<<"even allowed to suffer morning and school-wide assemblies "<<endl;
+  cout<<"in the shade, alone, as a precaution "<<endl;cout<<"against anemia or something."<<endl;
   cin.ignore();
-  cout<<"Though we've been in the same class my first, my second, and this, my third and final year of high school, I've never ";
-  cout<<"once seen her engaged in any sort of vigorous activity."<<endl;
+  cout<<"Though we've been in the same class my first, my second, and "<<endl;
+  cout<<"this, my third and final year of high school, I've never once "<<endl;
+  cout<<"seen her engaged in any sort of vigorous activity."<<endl;
   cin.ignore();
-  cout<<"She's a regular at the nurse's room, and she arrives late, leaves early, or simply doesn't show up to school because she ";
+  cout<<"She's a regular at the nurse's room, and she arrives late, "<<endl;
+  cout<<"leaves early, or simply doesn't show up to school because she "<<endl;
   cout<<"has to visit her primary care hospital, time and again."<<endl;
   cin.ignore();
   cout<<"To the point where it's rumored in jest that she lives there."<<endl;
