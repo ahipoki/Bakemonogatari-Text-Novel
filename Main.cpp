@@ -55,6 +55,9 @@ void crab(){
   cin.ignore();
   cout<<"To the point where it's rumored in jest that she lives there."<<endl;
   cin.ignore();
+  cout<<"Though \"always ill,\" she is by no means sickly. She's graceful, like her thin lines could snap at a touch, and has this ";
+  cout<<"evanescent air, which must be why some of the boys refer to her as \"the cloistered princess\" half-jokingly, ";
+  cout<<"half-seriously. You could say earnestly. That phrase and its connotations aptly describe Senjougahara, I agree."<<endl;
   
   //At the end
   cout<<"Do you want to continue to the next arc?"<<endl;
