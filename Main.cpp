@@ -11,6 +11,26 @@ void cat();
 int main() {
   char input[80];
   while (true) {
+    cout<<"What arc do you want to play through?"<<endl;
+    cin>>input;
+    if (strcmp(input, "Hitagi Crab")==0){
+      crab();
+    }
+    else if (strcmp(input, "Mayoi Snail")==0){
+      snail();
+    }
+    else if (strcmp(input, "Suruga Devil")==0){
+      monkey();
+    }
+    else if (strcmp(input, "Nadeko Snake")==0){
+      snake();
+    }
+    else if (strcmp(input, "Tsubasa Cat")==0){
+      cat();
+    }
+    else{
+      cout << "That's an invalid option"<<endl;
+    }
     cout<<"This is the Senjougahara arc of Bakemonogatari"<<endl;
     cout<<"Are you ready?"<<endl;
     cin>>input;
