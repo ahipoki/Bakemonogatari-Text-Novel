@@ -114,6 +114,7 @@ void snake(){
 }
 
 void cat(){
+  char nextArc[80];
   cout<<"This is a tale of a cat and Tsubasa Hanekawa"<<endl;
   
   //At the end
