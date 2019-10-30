@@ -12,7 +12,7 @@ int main() {
   char input[80];
   while (true) {
     cout<<"What arc do you want to play through?"<<endl;
-    cin>>input;
+    cin.getline(input, sizeof(input));
     if (strcmp(input, "Hitagi Crab")==0){
       crab();
     }
