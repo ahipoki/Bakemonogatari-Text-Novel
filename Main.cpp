@@ -8,9 +8,11 @@ void monkey();
 void snake();
 void cat();
 
+bool stillPlaying = true;
+
 int main() {
   char input[80];
-  while (true) {
+  while (stillPlaying==true) {
     cout<<"What arc do you want to play through?"<<endl;
     cin.getline(input, sizeof(input));
     if (strcmp(input, "Hitagi Crab")==0){
@@ -44,6 +46,9 @@ void crab(){
   if (strcmp(nextArc, "Yes")==0){
     snail();
   }
+  else{
+    cout<<"That's an invalid option"<<endl;
+  }
 }
 
 void snail(){
@@ -57,6 +62,12 @@ void snail(){
   if (strcmp(nextArc, "Yes")==0){
     monkey();
   }
+  else if (strcmp(nextArc, "No")==0){
+    stillPlaying = false;
+  }
+  else{
+    cout<<"That's an invalid option"<<endl;
+  }
 }
 
 void monkey(){
@@ -68,6 +79,12 @@ void monkey(){
   cin.getline(nextArc, sizeof(nextArc));
   if (strcmp(nextArc, "Yes")==0){
     snake();
+  }
+  else if (strcmp(nextArc, "No")==0){
+    stillPlaying = false;
+  }
+  else{
+    cout<<"That's an invalid option"<<endl;
   }
 }
 
@@ -81,8 +98,27 @@ void snake(){
   if (strcmp(nextArc, "Yes")==0){
     cat();
   }
+  else if (strcmp(nextArc, "No")==0){
+    stillPlaying = false;
+  }
+  else{
+    cout<<"That's an invalid option"<<endl;
+  }
 }
 
 void cat(){
   cout<<"This is a tale of a cat and Tsubasa Hanekawa"<<endl;
+  
+  //At the end
+  cout<<"Do you want to continue to the next arc?"<<endl;
+  cin.getline(nextArc, sizeof(nextArc));
+  if (strcmp(nextArc, "Yes")==0){
+    
+  }
+  else if (strcmp(nextArc, sizeof(nextArc)){
+    stillPlaying = false;
+  }
+  else{
+    cout<<"That's an invalid option"<<endl;
+  }
 }
