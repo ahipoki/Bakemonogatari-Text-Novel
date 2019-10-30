@@ -29,19 +29,7 @@ int main() {
       cat();
     }
     else{
-      cout << "That's an invalid option"<<endl;
-    }
-    cout<<"This is the Senjougahara arc of Bakemonogatari"<<endl;
-    cout<<"Are you ready?"<<endl;
-    cin>>input;
-    if (stcmp(input, "Yes") ==0){
-      crab();
-    }
-    else if (strcmp(input, "No") ==0){
-      return false;
-    }
-    else{
-      cout<<"That's an invalid answer"<<endl;
+      cout<<"That's an invalid option"<<endl;
     }
   }
 }
