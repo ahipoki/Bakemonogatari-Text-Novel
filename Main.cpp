@@ -40,7 +40,7 @@ void crab(){
   
   //At the end
   cout<<"Do you want to continue to the next arc?"<<endl;
-  cin>>next;
+  cin.getline(next, sizeof(next));
   if (strcmp(next, "Yes")==0){
     snail();
   }
@@ -52,7 +52,7 @@ void snail(){
   
   //At the end
   cout<<"Do you want to continue to the next arc?"<<endl;
-  cin>>next;
+  cin.getline(next, sizeof(next));
   if (strcmp(next, "Yes")==0){
     monkey();
   }
@@ -63,7 +63,7 @@ void monkey(){
   
   //At the end
   cout<<"Do you want to continue to the next arc?"<<endl;
-  cin>>next;
+  cin.getline(next, sizeof(next));
   if (strcmp(next, "Yes")==0){
     snake();
   }
@@ -74,7 +74,7 @@ void snake(){
   
   //At the end
   cout<<"Do you want to continue to the next arc?"<<endl;
-  cin>>next;
+  cin.getline(next, sizeof(next));
   if (strcmp(next, "Yes")==0){
     cat();
   }
